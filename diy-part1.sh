@@ -13,3 +13,4 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+#【Clash】使用配置文件预处理防止自定义规则被覆盖
